@@ -1,0 +1,64 @@
+.b-menu__header {
+  color: rgb(153, 153, 153);  
+  font-size: 0.85em;
+  font-style: italic;
+  margin: 20px 0px 0px 20px;  
+}
+
+.b-menu__header__number {
+  width: 70px;    
+  display: inline-block;         
+}
+
+.b-menu {
+  list-style-type: none;
+  padding-left: 1em;
+  font-size: 0.95em;
+  color: #FFFFFF;  
+}
+
+.b-item {
+  display: inline-block;
+  margin: 3px 0px 2px 7px;
+  padding: 4px 10px 4px 7px;        
+  cursor: pointer;  
+}
+
+.b-item_selected {
+  background-color: #66ccff;
+  background-size: 120%;
+  border-radius: 4px;
+  color: #000000;
+  cursor: auto;
+  font-weight: bolder;
+}
+
+.b-item__account { 
+  width: 75px;    
+  display: inline-block;
+  cursor: auto;  
+}
+   
+.b-item__account__number {
+  border-bottom: 1px dashed #FFFFFF;  
+  cursor: pointer;
+}
+
+.b-item_selected__account__no-dashed {
+  border-bottom: none;  
+  cursor: auto;
+}  
+
+.b-item__account__name {
+  overflow: hidden; 
+  max-width: 120px;  
+  float: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.b-menu__arrow {
+  height: 100%;
+  width: 65px;
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+<div class="b-page__content">	
+  <h1 class="b-header">Если бы на прошлой неделе вы инвестировали в ПАММ-счет успешного управляющего</h1>    
+  <div class="b-mainbox" (window:resize)="adjustArrow()">
+    <div class="b-mainbox__first-column">
+      <my-select [innerSelectedAcc]="selectedAcc" [accounts]="accounts" (valueChanged)="onAccChanged($event)">
+      </my-select>
+    </div>       
+    <div class="b-mainbox__separator">&nbsp;</div>
+    <div class = "b-mainbox__second-column">      
+      <my-slider [(ngModel)]="sliderValue"></my-slider>
+      <my-outputs [account]="selectedAcc" [sliderValue]="sliderValue"></my-outputs>
+    </div>                
+  </div>  
+</div>	

@@ -1,0 +1,36 @@
+.b-outputs {
+  margin-top: 50px;
+}
+
+.b-outputs__outputs-name {
+  float: left;
+  max-width: 150px;
+  min-width: 100px;  
+  color: rgb(96, 195, 245);  
+  font-style: italic;
+  font-size: 0.9em;    
+  padding: 0px 0px 0px 0px;
+  padding-top: 3%;
+  vertical-align: center;  
+}
+
+.b-outputs__outputs-text {
+  float: right;  
+  color: white;  
+  font-size: 2.7em;
+  font-weight: bolder;
+  padding-top: 2%;
+  vertical-align: center;    
+}
+
+.b-outputs__clearfloat {
+  clear:both;
+}
+
+@media (min-width: 510px) and (max-width: 620px) {
+  .b-outputs__outputs-text {    
+    width: 100%;    
+    text-align: right;
+  }       
+}
+
